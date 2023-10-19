@@ -11,12 +11,11 @@ describe(`Given my lenght function`, () => {
   });
 });
 
-// describe("Given my concat function", () => {
-//   test("when parameters are an array, then should be the concat", () => {
-
-//     const array = [1, 2, 3];
-//     const result = concat(array);
-//     const expectedResult = [1, 2, 3, 5, 6, 7];
-//     expect(result).toEqual(expectedResult);
-//   });
-// });
+describe("Given my concat function", () => {
+  test("when parameters are an array, then should be the concat", () => {
+    const array = [1, 2, 3];
+    const result = concat(array);
+    const expectedResult = [1, 2, 3, 5, 6, 7];
+    expect(result).toEqual(expectedResult);
+  });
+});

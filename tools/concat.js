@@ -6,7 +6,7 @@ function length(array) {
   return count;
 }
 
-function concat(array1) {
+export function concat(array1) {
   let array3 = [];
   let array2 = [5, 6, 7];
   let j = 0;
